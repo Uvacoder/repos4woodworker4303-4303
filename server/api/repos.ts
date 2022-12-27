@@ -1,6 +1,4 @@
 const hiddenRepos = new Set([
-  'eslint-config',
-  'nitro-preset-starter',
   'unjs.github.io',
   'unjs.io',
   'website',
@@ -13,7 +11,7 @@ const hiddenRepos = new Set([
 ])
 
 export default defineEventHandler(async () => {
-  const { repos } = await $fetch('https://ungh.cc/uvacoder/repos') as any
+  const { repos } = await $fetch('https://ungh.cc/org/unjs/repos') as any
   return repos
     .filter((repo: any) => !hiddenRepos.has(repo.name))
     .sort((a: any, b: any) => b.stars - a.stars)
