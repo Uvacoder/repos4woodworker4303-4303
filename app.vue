@@ -18,10 +18,10 @@ useHead({
     <header class="main-header">
       <NuxtLink href="/" class="logo"><Logo /></NuxtLink>
       <div class="site-title">
-        <NuxtLink href="/"><h1>unjs</h1></NuxtLink>
+        <NuxtLink href="/"><h1>Woodworker4303</h1></NuxtLink>
         <p>
-          <span>Unified JavaScript Tools</span>
-          <NuxtLink href="https://github.com/unjs" target="_blank"
+          <span>Woodworker4303 Repositories</span>
+          <NuxtLink href="https://github.com/woodworker4303" target="_blank"
             ><GitHubLogo
           /></NuxtLink>
         </p>
