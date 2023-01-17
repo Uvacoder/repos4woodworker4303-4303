@@ -3,10 +3,10 @@ import "~/assets/github-light.css";
 
 const route = useRoute();
 const { data: repo } = await useFetch<any>(
-  `https://ungh.cc/repos/uvacoder/${route.params.name}`
+  `https://ungh.cc/repos/woodworker4303/${route.params.name}`
 );
 const { data: readme } = await useFetch<any>(
-  `https://ungh.cc/repos/uvacoder/${route.params.name}/readme`
+  `https://ungh.cc/repos/woodworker4303/${route.params.name}/readme`
 );
 
 useHead({
