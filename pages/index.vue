@@ -9,7 +9,7 @@ const filterSearch = (repos: any) => {
 useHead({
   title: '',
   meta: [
-    { name: 'description', content: 'Discover the list of UnJS tools.' }
+    { name: 'description', content: 'Discover the repos of woodworker4303.' }
   ]
 })
 </script>
